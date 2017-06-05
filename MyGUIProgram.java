@@ -29,6 +29,10 @@ public class MyGUIProgram{
 	static String strDisp=null;
 	
 	public static void main(String args[]){
+		//This method is organised in this way.
+		//First I have added the GUI controls.
+		//Then I have defined the ActionListeners for the butttons
+		//And implemented the rest of the functionality
 		fFrame.setSize(940,480);
 		bSave.setBounds(260,400,100,40);
 		bExit.setBounds(370,400,100,40);
